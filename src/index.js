@@ -92,16 +92,5 @@ document.addEventListener("DOMContentLoaded", () => {
         createToyCard(data)
       })
   })
-  /*
-    get pointers for new toy name and img
-    get pointer for submit button
-    listen on button
-    preventDefault()
-    grab input name and image url
-    create data object
-    create configuration object
-    fetch the server with a POST
-
-  */
   fetchToys()
 })
